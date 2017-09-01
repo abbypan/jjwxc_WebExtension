@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Jjwxc",
+    "version": "1.5.0",
+
+    "description": "小说的右键查询菜单",
+
+    "icons": {
+        "16": "data/16.png" 
+    },
+
+    "applications": {
+        "gecko": {
+            "id": "abbypan@gmail.com-jjwxc-200812011635"
+        }
+    },
+
+    "permissions": ["contextMenus",  "activeTab" ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
